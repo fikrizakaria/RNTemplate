@@ -3,12 +3,7 @@ import {View} from 'react-native';
 
 function ShadowViewC({
   children,
-  style: {
-    shadowOffsetHeight = 0,
-    shadowOffsetWidth = 0,
-
-    ...styles
-  },
+  style: {shadowOffsetHeight = 0, shadowOffsetWidth = 0, ...styles},
 }) {
   return (
     <View
