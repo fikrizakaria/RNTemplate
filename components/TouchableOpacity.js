@@ -1,7 +1,7 @@
 import React from 'react';
 import {TouchableOpacity} from 'react-native';
 
-function TouchableOpacity({to, children, navigation}) {
+function Touchable({to, children, navigation}) {
   return (
     <TouchableOpacity onPress={() => navigation.navigate(to)}>
       {children}
@@ -9,4 +9,4 @@ function TouchableOpacity({to, children, navigation}) {
   );
 }
 
-export default TouchableOpacity;
+export default Touchable;
